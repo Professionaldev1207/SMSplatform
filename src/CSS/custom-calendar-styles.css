@@ -1,0 +1,55 @@
+/* Override the calendar background color */
+.rbc-calendar {
+    background-color: #f9f9f9;
+  }
+  
+  /* Customize event appearance */
+  .rbc-event {
+    background-color: rgba(111, 0, 163 , 0.7);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+  }
+
+  .rbc-event:hover {
+    background-color: rgba(111, 0, 163);
+  }
+
+  .rbc-show-more{
+    color: rgb(111, 0, 163);
+    background-color: #FFFFFF;
+  }
+  
+  .rbc-selected{
+    background-color: rgba(111, 0, 163)!important;
+  }
+  
+  /* Change the color of the selected slot */
+  .rbc-selected-cell {
+    background-color: #5dfc9f !important;
+  }
+  
+  /* Hide unused parts (optional) */
+@media (max-width: 1024px) {
+  /* Override the calendar background color */
+  .rbc-calendar {
+    width: 700px!important;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Override the calendar background color */
+  .rbc-calendar {
+    width: 600px!important;
+    margin-left: 50px!important;
+  }
+}
+
+@media (max-width: 425px) {
+  /* Override the calendar background color */
+  .rbc-calendar {
+    width: 90%!important;    
+    margin: auto!important;
+  }
+}
